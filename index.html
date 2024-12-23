@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salama Attia Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <a class="active" href="#Salama Attia"> Salama Attia </a>
+        <a href="#Contact"> Contact </a>
+        <a href="#Shows"> Shows </a>
+        <a href="#project"> Projects </a>
+        <a href="#About"> About </a>
+    </div>
+    
+    <div class="container">
+        <section id="Salama Attia" class="home">
+            <video class="video" autoplay loop muted>
+                <source src="bg/forest.mp4" type="video/mp4">
+            </video>
+            <h1 class = "name">Hi, my name is <br> Salama Attia</h1>
+            <img src="me.jpg" class ="myimg">
+        </section>
+
+        <section id="About" class="about-me">
+            <video class="video" autoplay loop muted>
+                <source src="bg\field.mp4" type="video/mp4">
+            </video>
+            <h1>About Me</h1>
+            <p class="desc"> Enthusiastic computer science graduate with a passion for crafting innovative software solutions. Dedicated to learning new techniques, using new approaches,
+                and keeping up-to-date with industry trends. Possesses a great understanding of the software development lifecycle, an eagerness to contribute to any given task, and a commitment to fostering a positive and enjoyable workspace.</p>
+
+            <!-- Tab titles -->
+            <div class="tab-container">
+                <div class="tab">
+                    <button class="tabtitles" onclick="openAbility(event, 'Skills')">Skills</button>
+                    <button class="tabtitles" onclick="openAbility(event, 'Experience')">Experience</button>
+                    <button class="tabtitles" onclick="openAbility(event, 'Hobbies')">Hobbies</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="Skills" class="tabcontent">
+                    <h3>Skills</h3>
+                    <p>Proficient in JavaScript, Java, Python, C#, PHP, React, HTML, and CSS, with a strong emphasis on problem-solving
+                        and a commitment to refining coding skills. Focused on designing, coding, and debugging to deliver high-quality
+                        software solutions.</p>
+                </div>
+
+                <div id="Experience" class="tabcontent">
+                    <h3>Experience</h3>
+                    <p>The First Robotics Program is an American robotics competition that challenges teams of motivated individuals
+                        to design and build a robot that meets specific criteria for a given game. Our team worked diligently to create
+                        and implement an efficient robot and strategy.<br>
+                        • Successfully implemented strategies derived from analyzing competing teams to maximize effectiveness, achieving a 3rd place finish among 60+ teams.<br>
+                        • Contributed to coding the robot's claw mechanism and movement using Java. Self-taught Java through various online videos and tutorials to keep up with the project's demands.<br></p>
+                </div>
+
+                <div id="Hobbies" class="tabcontent">
+                    <h3>Hobbies</h3>
+                    <p>I’m passionate about both basketball and football, enjoying the thrill of the game and the camaraderie with friends. These sports teach me valuable skills like teamwork,
+                        discipline, and strategic thinking. I also love gaming online with friends; it’s a blast and often leads to hilarious moments. Additionally, coding captivates me with its
+                        blend of problem-solving and creativity, offering a unique way to challenge my mind and bring innovative ideas to life.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="project">
+            <video class="video" autoplay loop muted>
+                <source src="bg/sky.mp4" type="video/mp4">
+            </video>
+            <h1>Projects</h1>
+            <div class="proj-container">
+                <div class="project-column">
+                    <h2>Gamification</h2>
+                    <ul>
+                        <li>Developed a detailed timeline with key features and deadlines, ensuring an organized and efficient execution of educational mini-games and a Unity-based 2D platformer.</li>
+                        <li>Utilized C# to create a captivating 2D action platformer with challenges such as parkour, enemies, crossbow sentries and traps.</li>
+                        <li>Developed an interactive educational maths mini-game that was programmed so that users could fly to the correct mental maths answer whilst flying and dodging obstacles.</li>
+                    </ul>
+                </div>
+                <div class="project-column">
+                    <h2>Online Examination System</h2>
+                    <ul>
+                        <li>Led the development of a student portal, facilitating easy access to grades, seamless personal information updates, and a clear timetable view showcasing effective teamwork and communication skills.</li>
+                        <li>Successfully conducted team discussions to streamline weekly check-ins and daily summaries, and strategically assigned roles to leverage each team member's strengths.</li>
+                        <li>Designed and implemented registration, login, home, and grade assessment pages using PHP, JavaScript, HTML, and CSS, requiring advancing my PHP skills beyond my coursework.</li>
+                    </ul>
+                </div>
+                <div class="project-column">
+                    <h2>Weather App</h2>
+                    <ul>
+                        <li>Collaborated with a team of four students to successfully develop a weather app from concept to completion. Actively contributed fresh ideas, provided suggestions, and highlighted innovative UI concepts to enhance the project's overall design and functionality.</li>
+                        <li>Engineered a streamlined user interface for the project by creating a comprehensive layout with HTML and CSS.</li>
+                        <li>Employed React and integrated weather APIs to seamlessly present real-time weather data, enhancing user experience with accurate forecasts for both the current day and the days ahead.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="Shows" class="Shows">
+            <video class="video" autoplay loop muted>
+                <source src="bg\midnight.mp4" type="video/mp4">
+            </video>
+            <h1>My top shows</h1>
+            <table>
+                <tr>
+                  <td>Show</td>
+                  <td>Genre</td>
+                  <td>What I enjoyed</td>
+                  <td>Nitpicking</td>
+                  <td>A favourite moment</td>
+                </tr>
+                <tr>
+                  <td>Breaking Bad</td>
+                  <td>Drama, Dark comedy, Crime</td>
+                  <td>The character development of Walter White, from a kind, loving family man and school teacher to a ruthless, egotistical drug kingpin, is compelling.</td>
+                  <td>Pacing at some parts is slightly over drawn.</td>
+                  <td>
+                    <a href="https://www.youtube.com/watch?v=T3x1tzOuXbQ">
+                      <img src="https://img.youtube.com/vi/T3x1tzOuXbQ/hqdefault.jpg" alt="Breaking Bad Thumbnail" class = "thumbnail">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>The Last Dance</td>
+                  <td>Documentary, Sports</td>
+                  <td>It turned me from someone who didn’t care much about Michael Jordan into someone highly invested.</td>
+                  <td>I have some doubt about what’s true and what’s exaggerated for dramatic effect</td>
+                  <td>
+                    <a href="https://www.youtube.com/watch?v=2t4RVg_Yq2g">
+                      <img src="https://img.youtube.com/vi/2t4RVg_Yq2g/hqdefault.jpg" alt="The Last Dance Thumbnail" class = "thumbnail">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Game Of Thrones</td>
+                  <td>Action, Adventure, Fantasy</td>
+                  <td>Each line of dialogue adds depth to the characters, revealing their political and personal motives.</td>
+                  <td>Daenerys' descent into madness feels random and lazy, leading to a rushed and poor conclusion</td>
+                  <td>
+                    <a href="https://www.youtube.com/watch?v=zrfBcB_2itU">
+                      <img src="https://img.youtube.com/vi/zrfBcB_2itU/hqdefault.jpg" alt="Game of Thrones Thumbnail" class = "thumbnail" >
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                    <td>Attack On Titan </td>
+                    <td>Action, Anime, Dark Fantasy</td>
+                    <td>After solving each mystery, you’re left with more questions, but you feel increasingly closer to the truth, all while enjoying some of the best animation and action scenes.</td>
+                    <td>The ending felt poor because it went against the show's main theme of freedom, giving a conclusion that ignored the sacrifices the characters made for it.</td>
+                    <td>
+                      <a href="https://www.youtube.com/watch?v=vQFDAhxJX2Q">
+                        <img src="https://img.youtube.com/vi/vQFDAhxJX2Q/hqdefault.jpg" alt="AOT Thumbnail" class = "thumbnail" >
+                      </a>
+                    </td>
+                  </tr>
+              </table>
+              
+
+        </section>
+
+        <section id="Contact" class="contact">
+            <video class="video" autoplay loop muted>
+                <source src="bg/raindrops-blurry-night-city-moewalls-com.mp4" type="video/mp4">
+            </video>
+            <h1>Contact Me</h1>
+            <h4>Leave me a message!</h4>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name">
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email">
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Your message"></textarea>
+        
+              <button class="submit-button">Submit</button>
+            </form>
+            
+        </section>
+        
+</body>
+</html>
